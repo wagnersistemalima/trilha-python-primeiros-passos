@@ -7,4 +7,12 @@ Trabalhando com a nova versao da linguagem python, criando um joguinho de advinh
 * Um simples jogo feito em Python chamado: Adivinha. Nele você terá que acerta o número que foi
 gerado aleatoriamente entre 1 e 100, ao decorrer do jogo você recebe dicas e possui niveis de dificuldade para acertar
 
-[]()
+![alter text]()
+
+
+
+## Jogo forca
+
+* O jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra proposta, tendo como dica o número de letras e o tema ligado à palavra.
+
+![alter text]()
