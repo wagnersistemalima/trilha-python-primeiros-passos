@@ -1,3 +1,6 @@
+# Exercicio do carnaval
+
+
 dia_inic = 24
 dia_fim = 28
 mes = "fevereiro"

@@ -1,3 +1,6 @@
+# Exercicio para formatar a data
+
+
 dia = 15
 mes = 10
 ano = 2015

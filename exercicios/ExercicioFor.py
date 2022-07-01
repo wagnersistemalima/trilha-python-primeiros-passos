@@ -1,3 +1,6 @@
+# Exercicio da sintaxe loop
+
+
 contador = 1
 while(contador <= 10):
     print("--- while")
