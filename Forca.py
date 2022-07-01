@@ -18,6 +18,9 @@ def jogar():
             if chute.lower() == letra.lower():
                 print("Encontrei a letra {} na posição {}".format(chute, index))
 
+            else:
+                print("Opss não encontrei a letra {}".format(chute))
+
             index += 1
 
     print("******************Fim do Jogo!*********************")
