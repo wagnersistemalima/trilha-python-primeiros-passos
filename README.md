@@ -92,3 +92,23 @@ lista_sem_repeticao.add("marco")
 * set não possui um índice
 * É importante notar que o set não é uma sequência, pois não tem um índice
 * Um set é uma coleção não ordenada de elementos. Cada elemento é único, isso significa que não existem elementos duplicados dentro do set.
+
+
+## Conhecendo o dictionary
+
+
+```
+dicionario = {1: "wagner", 2: "marina", 3: "karina"}
+type(dicionario)
+class 'dict'
+```
+
+* Nesse par, temos no lado esquerdo a chave e no lado direito o valor. Isso é importante pois usamos a chave para recuperar um valor
+
+```
+usuario = dicionario[2]
+
+print(usuario)
+
+-> mostra na tela = marina
+```
