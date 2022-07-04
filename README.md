@@ -132,3 +132,35 @@ print(lista_de_numeros_pares)
 [2, 4, 6, 8]
 
 ```
+
+## Ler um arquivo em python
+
+```
+# para utilizar a função open para leitura
+
+arquivo = open("palavras.txt", "r")
+
+arquivo.close()
+
+# para utilizar a função open para escrita dando apend no arquivo
+
+arquivo2 = open("palavra2.txt", "a")
+
+arquivo2.close()
+
+# para utilizar a função open para escrita, porem vai apagar os dados existentes
+
+arquivo3 = open("palavra3.txt", "w")
+
+arquivo3.close()
+```
+
+* ler apenas a primeira linha do arquivo
+
+```
+arquivo = open('pessoas.txt', 'r')
+linha = arquivo.readline()
+print(linha)
+
+arquivo.close()
+```
