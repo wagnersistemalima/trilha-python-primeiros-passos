@@ -112,3 +112,10 @@ print(usuario)
 
 -> mostra na tela = marina
 ```
+* List Comprehension. para criar uma lista com os mesmos dados de frutas com letras maiusculas
+
+```
+frutas = ["maçã", "banana", "laranja", "melancia"]
+lista = [fruta.upper() for fruta in frutas]
+
+```
