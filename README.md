@@ -18,3 +18,42 @@ gerado aleatoriamente entre 1 e 100, ao decorrer do jogo você recebe dicas e po
 ![alter text](https://github.com/wagnersistemalima/trilha-python-primeiros-passos/blob/main/images/image-forca1.png)
 
 ![alter txt](https://github.com/wagnersistemalima/trilha-python-primeiros-passos/blob/main/images/image-forca2.png)
+
+
+## Para criar esses joguinhos utilizamos algumas estruturas de dados em python
+
+* List , estrutura de dados que nos permite guardar valores. Essa estrutura é a lista. Para criar uma lista, utilizamos colchetes ex:
+
+```
+
+valores = []
+type(valores)
+class 'list'
+
+```
+
+* No jogo da forca, criei um uma função para gerar frutas e armazenar em uma lista, escolhendo aleatoriamente uma fruta para iniciar o jogo
+
+```
+def gerador_de_frutas():
+    lista_de_palavras_secretas = ["banana", "jaboticaba", "melancia", "graviola", "laranja", "maracujar"]
+    escolha_palavra_secreta = random.randint(0, len(lista_de_palavras_secretas))
+
+    palavra_secreta = lista_de_palavras_secretas[escolha_palavra_secreta]
+
+    return palavra_secreta
+
+```
+
+* O interpretador do Python possui várias funções e tipos embutidos que sempre estão disponíveis, Built-in
+
+```
+
+len()              Devolve o comprimento (o número de itens) de um objeto.
+print()            Mostrar na tela
+inpult()           A função então lê uma linha da fonte de entrada, converte a mesma para uma string
+max()              Devolve o maior item em um iterável ou o maior de dois ou mais argumentos.
+
+```
+
+
