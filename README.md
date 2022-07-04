@@ -119,3 +119,16 @@ frutas = ["maçã", "banana", "laranja", "melancia"]
 lista = [fruta.upper() for fruta in frutas]
 
 ```
+
+* O recurso List Comprehension também permite utilizar condições para o preenchimento da lista.
+
+```
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+lista_de_numeros_pares = [numero for numero in lista if numero % 2 == 0]
+
+print(lista_de_numeros_pares)
+
+[2, 4, 6, 8]
+
+```
