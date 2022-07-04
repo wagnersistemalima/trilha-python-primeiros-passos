@@ -83,4 +83,12 @@ lista_sem_repeticao = {"wagner", "marina", "karina"}
 type(lista_sem_repeticao)
 class 'set'
 ```
+* Adicionando elementos no set
 
+```
+lista_sem_repeticao.add("marco")
+```
+
+* set não possui um índice
+* É importante notar que o set não é uma sequência, pois não tem um índice
+* Um set é uma coleção não ordenada de elementos. Cada elemento é único, isso significa que não existem elementos duplicados dentro do set.
