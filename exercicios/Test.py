@@ -30,3 +30,9 @@ result = 3 // 2
 print("Result = {}".format(result))
 
 
+serie = range(0, 5)
+
+print(serie[2])
+
+
+
