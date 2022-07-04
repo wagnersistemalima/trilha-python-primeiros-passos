@@ -56,4 +56,20 @@ max()              Devolve o maior item em um iterável ou o maior de dois ou ma
 
 ```
 
+* Tupla , mais um tipo de sequencia em python que é uma lista imutavel
 
+```
+filmes = ("The Lord of the Rings", "O homem de ferro", "Os Vingadores")
+type(filmes)
+class 'tuple'
+```
+
+* Para transformar um tuple em uma lista, temos a função
+
+```
+tupla1 = (1, "Wagner")
+
+lista = list(tupla1)                  De tupla para list
+
+transformado = tuple()                De list para tuple
+```
