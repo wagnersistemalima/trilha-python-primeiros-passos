@@ -71,5 +71,5 @@ tupla1 = (1, "Wagner")
 
 lista = list(tupla1)                  De tupla para list
 
-transformado = tuple()                De list para tuple
+transformado = tuple(lista)                De list para tuple
 ```
