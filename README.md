@@ -73,3 +73,14 @@ lista = list(tupla1)                  De tupla para list
 
 transformado = tuple(lista)                De list para tuple
 ```
+
+## Conhecendo o set
+
+* Coleção onde não podem existir elementos duplicados
+
+```
+lista_sem_repeticao = {"wagner", "marina", "karina"}
+type(lista_sem_repeticao)
+class 'set'
+```
+
